@@ -1,3 +1,65 @@
 body {
-	background-color: "#AFEEEE"
+	background-image: url("ocean.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+    color: black;
+    margin: 5px;
+}
+
+img {
+	border: 3px solid #021a40;
+	padding-left: 1px;
+	display: inline-block;
+	
+}
+
+.right_panel {
+    width: 50%;
+    display: inline-block;
+    float: right; 
+ 
+}
+ 
+#left_panel {
+	width: 50%;
+    display: inline-block; 
+    float: left;
+
+}
+h1 {
+	color: #006680;
+}
+
+th {
+	color: #000080
+}
+h3 {
+	color: black;
+}
+
+h4 {
+	color: #000080;
+}
+
+ul li:hover {
+  color: #FFEBCD;
+}
+
+p:hover {
+  color: #FFEBCD;
+}
+
+footer {
+  text-align: center;
+}
+
+a:visited { 
+    color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+  img {
+    width: 50%;
+  }
 }
